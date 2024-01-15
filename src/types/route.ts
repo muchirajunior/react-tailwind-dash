@@ -1,7 +1,7 @@
 import React from "react";
 
 export type Route={
-    name : String;
-    path: String;
+    name : string;
+    path: string;
     page : React.FC;
 }
