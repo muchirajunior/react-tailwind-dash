@@ -1,14 +1,14 @@
+import Login from "../pages/auth/login.tsx";
 import Dashboard from "../pages/dashboard/dashboard.tsx";
-import sales from "../pages/sales/sales.tsx";
+import Sales from "../pages/sales/sales.tsx";
+import { Route } from "../types/route.ts";
 
-export type Route={
-    name : string;
-    path: string;
-    page : React.FC;
-}
+export const authRoutes : Array<Route>=[
+    {name :"Login", path:'/*',page: Login}
+]
 
 export const routes : Array<Route>=[
     { name: "Dashboard" , path:"/", page : Dashboard },
-    { name: "Sales" , path:"/sales", page : sales },
+    { name: "Sales" , path:"/sales", page : Sales },
     { name: "Products" , path:"/products", page : Dashboard },
 ]
