@@ -5,7 +5,7 @@ import SideNav from './sidenav.tsx';
 const Layout: React.FC<{ component: JSX.Element }> = ({ component }) => {
     return (
         <div className='flex flex-row flex-nowrap '>
-            <div className='flex flex-col p-2 w-60 shadow h-screen '>
+            <div className='flex flex-col p-2 w-80 shadow h-screen '>
                 <SideNav />
             </div>
             <div className='flex flex-col w-full'>
