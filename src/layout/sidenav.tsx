@@ -30,8 +30,8 @@ export default function SideNav() {
           </Link>)
       }
 
-      <div className='absolute bottom-2 bg-slate-200 m-1 p-2 rounded-xl shadow-lg'>
-        <div className='text-slate-800 text-center my-2'>New update available <br />click to update </div>
+      <div className='absolute bottom-6 bg-slate-200 m-1 p-2 rounded-xl shadow-lg'>
+        <div className='text-slate-800 text-center mt-2 mb-6'>New update available <br />click to update </div>
         <button className='rounded-3xl bg-blue-700 m-2 p-2 text-white font-bold w-52'>Update!</button>
 
       </div>
