@@ -23,8 +23,8 @@ export default function SideNav() {
           <Link
             to={route.path}
             key={route.path}
-            className={`flex flex-row align-middle rounded m-1 bg-gray-100 hover:bg-blue-600 hover:text-white p-2 font-bold text-lg 
-              ${route.path === current ? "bg-blue-700 text-white" : null}`}
+            className={`flex flex-row align-middle rounded m-1 hover:bg-blue-600 hover:text-white p-2 font-bold text-lg 
+              ${route.path === current ? "bg-blue-700 text-white" : 'bg-gray-50 text-gray-600'}`}
           >
             {<route.icon className=' mx-2 mt-1' />}
             {route.name}
